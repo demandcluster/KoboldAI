@@ -1,0 +1,20 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch # We have to place it here otherwise it installs the CPU version
+pydantic==1.10.12
+horde_model_reference~=0.2.2
+hordelib~=1.6.1
+gradio
+pyyaml
+unidecode
+regex
+rembg
+pynvml
+psutil
+windows-curses; sys_platform == 'win32'
+loguru
+GitPython
+clip-anytorch
+diffusers
+omegaconf
+setuptools
+typing_extensions

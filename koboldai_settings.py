@@ -1193,8 +1193,8 @@ class user_settings(settings):
         self.apikey      = ""     # API key to use for InferKit API calls
         self.oaiapikey   = ""     # API key to use for OpenAI API calls
         self.horde_api_key = "0000000000"
-        self.horde_worker_name = "My Awesome Instance"
-        self.horde_url = "https://horde.koboldai.net"
+        self.horde_worker_name = "Charluv Instance"
+        self.horde_url = "https://horde.aivo.chat"
         self.model_selected = ""
         
     def __setattr__(self, name, value):

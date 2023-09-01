@@ -2655,14 +2655,14 @@ Kobold Lite is under the AGPL v3.0 License for the purposes of koboldcpp and Kob
 
 	//here is my shit integration of KAI Horde's API. You're welcome. -Concedo.
 	const default_client_agent = "KoboldAiLite:17";
-	const stablehorde_url = "https://stablehorde.net";
+	const stablehorde_url = "https://horde.aivo.chat";
 	const poll_interval_base_text = 500;
 	const poll_interval_base_img = 3800;
 	const poll_interval_background = 1000;
 
 	const text_hordes = [
 		{
-			baseurl: "https://horde.koboldai.net",
+			baseurl: "https://horde.aivo.chat",
 			tag: "🤖",
 			sort_order: 1,
 			client_agent: default_client_agent,
@@ -5164,7 +5164,7 @@ Kobold Lite is under the AGPL v3.0 License for the purposes of koboldcpp and Kob
 							if(uname.toLowerCase()=="anonymous#0")
 							{
 								document.getElementById("kudos_bal").innerHTML = clustertag + uname + "<br>"+
-								"<a class='color_blueurl' href='https://horde.koboldai.net/register'>(Register New User)</a>";
+								"<a class='color_blueurl' href='https://horde.aivo.chat/register'>(Register New User)</a>";
 							}
 						} else {
 							document.getElementById("kudos_bal").innerHTML = clustertag + unameurl + "<br>Kudos Balance: " + kuds;
@@ -5172,12 +5172,12 @@ Kobold Lite is under the AGPL v3.0 License for the purposes of koboldcpp and Kob
 
 					}
 					else {
-						document.getElementById("kudos_bal").innerHTML = "API Key Error<br><a class='color_blueurl' href='https://horde.koboldai.net/register'>(Register New User)</a>";
+						document.getElementById("kudos_bal").innerHTML = "API Key Error<br><a class='color_blueurl' href='https://horde.aivo.chat/register'>(Register New User)</a>";
 					}
 				}
 				else {
 					console.log("Error: " + errArr);
-					document.getElementById("kudos_bal").innerHTML = "API Key Error<br><a class='color_blueurl' href='https://horde.koboldai.net/register'>(Register New User)</a>";
+					document.getElementById("kudos_bal").innerHTML = "API Key Error<br><a class='color_blueurl' href='https://horde.aivo.chat/register'>(Register New User)</a>";
 				}
 			});
 		}
@@ -8309,10 +8309,10 @@ Kobold Lite is under the AGPL v3.0 License for the purposes of koboldcpp and Kob
 				<div class="justifyleft anotelabel">
 					Your Kobold Horde API Key <span class="helpicon">?
 						<span class="helptext">You need an API key to use KoboldAI Horde to generate text. Get one at
-							https://horde.koboldai.net/register or use the anonymous key 0000000000.</span>
+							https://horde.aivo.chat/register or use the anonymous key 0000000000.</span>
 					</span>
 					<span class="color_green" style="float:right; text-align: right;" id="kudos_bal">
-						Need a Key?<br><a class='color_blueurl' href='https://horde.koboldai.net/register'>(Register New User)</a>
+						Need a Key?<br><a class='color_blueurl' href='https://horde.aivo.chat/register'>(Register New User)</a>
 					</span>
 				</div>
 
